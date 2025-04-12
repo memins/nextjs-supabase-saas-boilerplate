@@ -1,0 +1,24 @@
+import { useState, useEffect } from 'react';
+
+/**
+ * use{{pascalCase name}} Hook
+ * 
+ * @returns Hook state and methods
+ */
+export function use{{pascalCase name}}() {
+  const [state, setState] = useState<any>(null);
+
+  useEffect(() => {
+    // Initialize the hook
+  }, []);
+
+  // Hook methods
+  const someMethod = () => {
+    // Do something
+  };
+
+  return {
+    state,
+    someMethod,
+  };
+} 

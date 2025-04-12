@@ -1,0 +1,14 @@
+import { ReactNode } from 'react';
+
+interface {{pascalCase name}}LayoutProps {
+  children: ReactNode;
+}
+
+export default function {{pascalCase name}}Layout({ children }: {{pascalCase name}}LayoutProps) {
+  return (
+    <section>
+      {/* {{pascalCase name}} specific layout elements can go here */}
+      {children}
+    </section>
+  );
+} 
