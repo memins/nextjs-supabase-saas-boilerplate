@@ -67,5 +67,49 @@
       "login": "Login",
       "signupButton": "Sign up"
     }
+  },
+  "dashboard": {
+    "welcome": "Welcome to your dashboard",
+    "stats": {
+      "title": "Your Stats",
+      "users": "Total Users",
+      "revenue": "Revenue",
+      "growth": "Growth"
+    },
+    "activity": {
+      "title": "Recent Activity",
+      "empty": "No recent activity"
+    },
+    "settings": {
+      "title": "Settings",
+      "profile": "Profile",
+      "billing": "Billing",
+      "notifications": "Notifications",
+      "security": "Security"
+    }
+  },
+  "errors": {
+    "general": "An error occurred",
+    "notFound": "Page not found",
+    "serverError": "Server error",
+    "unauthorized": "Unauthorized access",
+    "forbidden": "Access forbidden",
+    "validation": {
+      "required": "This field is required",
+      "email": "Please enter a valid email address",
+      "password": "Password must be at least 6 characters",
+      "name": "Please enter your name"
+    },
+    "auth": {
+      "invalidCredentials": "Invalid email or password",
+      "emailInUse": "Email is already in use",
+      "weakPassword": "Password is too weak",
+      "sessionExpired": "Your session has expired, please log in again"
+    },
+    "payment": {
+      "failed": "Payment failed",
+      "cardDeclined": "Your card was declined",
+      "insufficientFunds": "Insufficient funds"
+    }
   }
 } 

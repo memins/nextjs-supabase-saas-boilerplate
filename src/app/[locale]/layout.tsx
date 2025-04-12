@@ -28,6 +28,9 @@ export function generateStaticParams() {
   return [{ locale: "en" }, { locale: "de" }];
 }
 
+// RTL languages
+const rtlLocales = ['ar', 'he', 'fa', 'ur'];
+
 export default async function LocaleLayout({
   children,
   params: { locale },
@@ -47,8 +50,11 @@ export default async function LocaleLayout({
     messages = (await import(`../../../messages/en.json`)).default;
   }
 
+  // Check if the current locale is RTL
+  const isRtl = rtlLocales.includes(locale);
+
   return (
-    <html lang={locale} suppressHydrationWarning>
+    <html lang={locale} dir={isRtl ? 'rtl' : 'ltr'} suppressHydrationWarning>
       <body
         className={`${geistSans.variable} ${geistMono.variable} min-h-screen bg-background font-sans antialiased`}
       >

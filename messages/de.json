@@ -27,13 +27,13 @@
   },
   "home": {
     "hero": {
-      "title": "Bauen Sie Ihr SaaS schneller mit unserem Boilerplate",
-      "subtitle": "Alles, was Sie brauchen, um Ihr SaaS-Produkt an einem Ort zu starten.",
-      "cta": "Starten Sie Ihre kostenlose Testversion"
+      "title": "Entwickle dein SaaS schneller mit unserem Boilerplate",
+      "subtitle": "Alles, was du brauchst, um dein SaaS-Produkt an einem Ort zu starten.",
+      "cta": "Starte deine kostenlose Testversion"
     },
     "features": {
       "title": "Funktionen",
-      "subtitle": "Alles, was Sie zum Aufbau Ihres SaaS benötigen",
+      "subtitle": "Alles, was du zum Aufbau deines SaaS benötigst",
       "feature1": {
         "title": "Authentifizierung",
         "description": "Sichere Benutzerauthentifizierung mit mehreren Anbietern"
@@ -44,28 +44,72 @@
       },
       "feature3": {
         "title": "Benutzerverwaltung",
-        "description": "Umfassende Benutzer- und Teamverwaltung"
+        "description": "Vollständige Benutzer- und Teamverwaltung"
       }
     }
   },
   "auth": {
     "login": {
-      "title": "Melden Sie sich bei Ihrem Konto an",
+      "title": "Bei deinem Konto anmelden",
       "email": "E-Mail-Adresse",
       "password": "Passwort",
       "forgotPassword": "Passwort vergessen?",
       "noAccount": "Kein Konto?",
-      "createAccount": "Erstellen Sie eines",
+      "createAccount": "Erstelle eins",
       "loginButton": "Anmelden"
     },
     "signup": {
-      "title": "Erstellen Sie Ihr Konto",
+      "title": "Konto erstellen",
       "name": "Vollständiger Name",
       "email": "E-Mail-Adresse",
       "password": "Passwort",
-      "hasAccount": "Haben Sie bereits ein Konto?",
+      "hasAccount": "Hast du bereits ein Konto?",
       "login": "Anmelden",
       "signupButton": "Registrieren"
+    }
+  },
+  "dashboard": {
+    "welcome": "Willkommen in deinem Dashboard",
+    "stats": {
+      "title": "Deine Statistiken",
+      "users": "Benutzer gesamt",
+      "revenue": "Umsatz",
+      "growth": "Wachstum"
+    },
+    "activity": {
+      "title": "Letzte Aktivitäten",
+      "empty": "Keine aktuellen Aktivitäten"
+    },
+    "settings": {
+      "title": "Einstellungen",
+      "profile": "Profil",
+      "billing": "Abrechnung",
+      "notifications": "Benachrichtigungen",
+      "security": "Sicherheit"
+    }
+  },
+  "errors": {
+    "general": "Ein Fehler ist aufgetreten",
+    "notFound": "Seite nicht gefunden",
+    "serverError": "Serverfehler",
+    "unauthorized": "Nicht autorisierter Zugriff",
+    "forbidden": "Zugriff verboten",
+    "validation": {
+      "required": "Dieses Feld ist erforderlich",
+      "email": "Bitte gib eine gültige E-Mail-Adresse ein",
+      "password": "Das Passwort muss mindestens 6 Zeichen lang sein",
+      "name": "Bitte gib deinen Namen ein"
+    },
+    "auth": {
+      "invalidCredentials": "Ungültige E-Mail oder Passwort",
+      "emailInUse": "Diese E-Mail-Adresse wird bereits verwendet",
+      "weakPassword": "Das Passwort ist zu schwach",
+      "sessionExpired": "Deine Sitzung ist abgelaufen, bitte melde dich erneut an"
+    },
+    "payment": {
+      "failed": "Zahlung fehlgeschlagen",
+      "cardDeclined": "Deine Karte wurde abgelehnt",
+      "insufficientFunds": "Unzureichendes Guthaben"
     }
   }
 } 

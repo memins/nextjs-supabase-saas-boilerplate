@@ -47,8 +47,8 @@ A modern, feature-rich SaaS boilerplate built with Next.js, Tailwind CSS, TypeSc
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/nextjs-saas-boilerplate.git
-   cd nextjs-saas-boilerplate
+   git clone https://github.com/memins/nextjs-supabase-saas-boilerplate
+   cd nextjs-supabase-saas-boilerplate
    ```
 
 2. Install dependencies:
