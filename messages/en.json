@@ -1,0 +1,71 @@
+{
+  "common": {
+    "navigation": {
+      "home": "Home",
+      "features": "Features",
+      "pricing": "Pricing",
+      "blog": "Blog",
+      "contact": "Contact",
+      "dashboard": "Dashboard",
+      "login": "Login",
+      "signup": "Sign Up"
+    },
+    "buttons": {
+      "getStarted": "Get Started",
+      "learnMore": "Learn More",
+      "submit": "Submit",
+      "cancel": "Cancel",
+      "save": "Save",
+      "delete": "Delete"
+    },
+    "footer": {
+      "company": "Company",
+      "legal": "Legal",
+      "support": "Support",
+      "copyright": "© 2024 SaaS Boilerplate. All rights reserved."
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Build your SaaS faster with our boilerplate",
+      "subtitle": "Everything you need to launch your SaaS product, all in one place.",
+      "cta": "Start your free trial"
+    },
+    "features": {
+      "title": "Features",
+      "subtitle": "Everything you need to build your SaaS",
+      "feature1": {
+        "title": "Authentication",
+        "description": "Secure user authentication with multiple providers"
+      },
+      "feature2": {
+        "title": "Payments",
+        "description": "Integrated subscription management and billing"
+      },
+      "feature3": {
+        "title": "User Management",
+        "description": "Comprehensive user and team management"
+      }
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Login to your account",
+      "email": "Email address",
+      "password": "Password",
+      "forgotPassword": "Forgot password?",
+      "noAccount": "Don't have an account?",
+      "createAccount": "Create one",
+      "loginButton": "Login"
+    },
+    "signup": {
+      "title": "Create your account",
+      "name": "Full name",
+      "email": "Email address",
+      "password": "Password",
+      "hasAccount": "Already have an account?",
+      "login": "Login",
+      "signupButton": "Sign up"
+    }
+  }
+} 

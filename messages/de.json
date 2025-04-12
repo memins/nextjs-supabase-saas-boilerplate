@@ -1,0 +1,71 @@
+{
+  "common": {
+    "navigation": {
+      "home": "Startseite",
+      "features": "Funktionen",
+      "pricing": "Preise",
+      "blog": "Blog",
+      "contact": "Kontakt",
+      "dashboard": "Dashboard",
+      "login": "Anmelden",
+      "signup": "Registrieren"
+    },
+    "buttons": {
+      "getStarted": "Loslegen",
+      "learnMore": "Mehr erfahren",
+      "submit": "Absenden",
+      "cancel": "Abbrechen",
+      "save": "Speichern",
+      "delete": "Löschen"
+    },
+    "footer": {
+      "company": "Unternehmen",
+      "legal": "Rechtliches",
+      "support": "Support",
+      "copyright": "© 2024 SaaS Boilerplate. Alle Rechte vorbehalten."
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Bauen Sie Ihr SaaS schneller mit unserem Boilerplate",
+      "subtitle": "Alles, was Sie brauchen, um Ihr SaaS-Produkt an einem Ort zu starten.",
+      "cta": "Starten Sie Ihre kostenlose Testversion"
+    },
+    "features": {
+      "title": "Funktionen",
+      "subtitle": "Alles, was Sie zum Aufbau Ihres SaaS benötigen",
+      "feature1": {
+        "title": "Authentifizierung",
+        "description": "Sichere Benutzerauthentifizierung mit mehreren Anbietern"
+      },
+      "feature2": {
+        "title": "Zahlungen",
+        "description": "Integrierte Abonnement- und Rechnungsverwaltung"
+      },
+      "feature3": {
+        "title": "Benutzerverwaltung",
+        "description": "Umfassende Benutzer- und Teamverwaltung"
+      }
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Melden Sie sich bei Ihrem Konto an",
+      "email": "E-Mail-Adresse",
+      "password": "Passwort",
+      "forgotPassword": "Passwort vergessen?",
+      "noAccount": "Kein Konto?",
+      "createAccount": "Erstellen Sie eines",
+      "loginButton": "Anmelden"
+    },
+    "signup": {
+      "title": "Erstellen Sie Ihr Konto",
+      "name": "Vollständiger Name",
+      "email": "E-Mail-Adresse",
+      "password": "Passwort",
+      "hasAccount": "Haben Sie bereits ein Konto?",
+      "login": "Anmelden",
+      "signupButton": "Registrieren"
+    }
+  }
+} 
